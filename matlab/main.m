@@ -14,4 +14,4 @@ for i=1:size(file)
     str=strcat(n,32,e,32,u,32,file(i).name(1:4));
     fprintf(fid,'\r\n%s',str)
 end
-fclose(fid
+fclose(fid)
